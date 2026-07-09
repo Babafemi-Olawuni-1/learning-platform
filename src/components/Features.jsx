@@ -94,7 +94,7 @@ export default function Features() {
             transition={{ duration: 0.5 }}
             className="inline-block bg-[#6BCB77]/15 text-[#2D9442] text-xs font-600 px-4 py-2 rounded-full mb-4"
           >
-            Why AyeneLearn?
+            Why Learn Booster?
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 30 }}
