@@ -12,7 +12,7 @@ const plans = [
   {
     id: 'free',
     name: 'Free',
-    price: '$0',
+    price: '₦0',
     sub: 'Forever free',
     color: '#2D4059',
     features: ['20 questions per subject', 'Basic analytics', 'Community forum', null, null, null],
@@ -22,8 +22,8 @@ const plans = [
   {
     id: 'premium',
     name: 'Premium',
-    price: '$9.99',
-    sub: '/month · or ₦3,500/mo',
+    price: '₦3,500',
+    sub: '/month',
     color: '#FF6B6B',
     badge: 'Most Popular',
     features: ['Unlimited quizzes', 'AI performance analytics', 'Live tutor sessions', 'Downloadable notes', 'All exams covered', 'Priority support'],
@@ -34,7 +34,7 @@ const plans = [
   {
     id: 'school',
     name: 'School',
-    price: '$49.99',
+    price: '₦18,000',
     sub: '/month · 5 accounts',
     color: '#6BCB77',
     features: ['5 student accounts', 'Admin dashboard', 'School analytics', 'Bulk content upload', 'All premium features', 'Dedicated support'],
@@ -44,7 +44,7 @@ const plans = [
   {
     id: 'institution',
     name: 'Institution',
-    price: '$99.99',
+    price: '₦35,000',
     sub: '/month · unlimited',
     color: '#FFD93D',
     features: ['Unlimited accounts', 'Institution branding', 'Custom content', 'Advanced reporting', 'API access', 'Onboarding support'],
